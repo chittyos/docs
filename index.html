@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChittyOS - Legal Technology Ecosystem</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'chitty-primary': '#0066CC',
+                        'chitty-secondary': '#4A90E2',
+                        'chitty-accent': '#7ED321',
+                        'chitty-warning': '#F5A623',
+                        'chitty-danger': '#D0021B',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-6">
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-gradient-to-br from-chitty-primary to-chitty-secondary rounded-lg flex items-center justify-center">
+                        <span class="text-white font-black text-lg">C</span>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold bg-gradient-to-r from-chitty-primary to-chitty-secondary bg-clip-text text-transparent">ChittyOS</h1>
+                        <p class="text-sm text-gray-600">Legal Technology Ecosystem</p>
+                    </div>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/chittyos/chittystandard" class="bg-chitty-primary text-white px-4 py-2 rounded-lg hover:bg-chitty-primary/90 transition-colors">
+                        Get Started
+                    </a>
+                    <a href="https://github.com/chittyos" class="border border-chitty-primary text-chitty-primary px-4 py-2 rounded-lg hover:bg-chitty-primary/5 transition-colors">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-chitty-primary/5 to-chitty-secondary/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-5xl font-bold text-gray-900 mb-6">
+                The Complete Legal Technology Framework
+            </h2>
+            <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                ChittyOS Standard provides a unified platform for building and integrating legal technology applications with shared dependencies, components, and seamless inter-app communication.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <div class="bg-black text-white px-6 py-3 rounded-lg font-mono text-sm">
+                    npx @chittyos/standard-installer
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Framework Levels -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold text-center mb-12">Choose Your Framework Level</h3>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="bg-white rounded-lg shadow-sm border p-6">
+                    <div class="text-center mb-4">
+                        <div class="w-12 h-12 bg-gray-100 rounded-lg mx-auto mb-3 flex items-center justify-center">
+                            <span class="text-gray-600 font-semibold">MIN</span>
+                        </div>
+                        <h4 class="text-lg font-semibold">Minimal</h4>
+                        <p class="text-gray-600 text-sm">Core dependencies only</p>
+                    </div>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>• Basic utilities</li>
+                        <li>• No apps included</li>
+                        <li>• Lightweight setup</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border p-6 ring-2 ring-chitty-primary">
+                    <div class="text-center mb-4">
+                        <div class="w-12 h-12 bg-chitty-primary/10 rounded-lg mx-auto mb-3 flex items-center justify-center">
+                            <span class="text-chitty-primary font-semibold">STD</span>
+                        </div>
+                        <h4 class="text-lg font-semibold">Standard</h4>
+                        <p class="text-chitty-primary text-sm font-medium">Recommended</p>
+                    </div>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>• ChittyResolution</li>
+                        <li>• ChittyChronicle</li>
+                        <li>• Database & Auth</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border p-6">
+                    <div class="text-center mb-4">
+                        <div class="w-12 h-12 bg-chitty-accent/10 rounded-lg mx-auto mb-3 flex items-center justify-center">
+                            <span class="text-chitty-accent font-semibold">PRO</span>
+                        </div>
+                        <h4 class="text-lg font-semibold">Professional</h4>
+                        <p class="text-gray-600 text-sm">Full legal suite</p>
+                    </div>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>• 5 Core Apps</li>
+                        <li>• Evidence tracking</li>
+                        <li>• Workflow automation</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border p-6">
+                    <div class="text-center mb-4">
+                        <div class="w-12 h-12 bg-chitty-warning/10 rounded-lg mx-auto mb-3 flex items-center justify-center">
+                            <span class="text-chitty-warning font-semibold">ENT</span>
+                        </div>
+                        <h4 class="text-lg font-semibold">Enterprise</h4>
+                        <p class="text-gray-600 text-sm">Complete ecosystem</p>
+                    </div>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>• All 8+ Apps</li>
+                        <li>• Docker support</li>
+                        <li>• Analytics & insights</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ChittyApps -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold text-center mb-12">ChittyApps Ecosystem</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-lg shadow-sm border p-6">
+                    <div class="w-10 h-10 bg-chitty-primary/10 rounded-lg mb-4 flex items-center justify-center">
+                        <span class="text-chitty-primary font-bold text-sm">CR</span>
+                    </div>
+                    <h4 class="font-semibold mb-2">ChittyResolution</h4>
+                    <p class="text-sm text-gray-600">Dispute resolution and case management with mediation tools.</p>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border p-6">
+                    <div class="w-10 h-10 bg-chitty-secondary/10 rounded-lg mb-4 flex items-center justify-center">
+                        <span class="text-chitty-secondary font-bold text-sm">CC</span>
+                    </div>
+                    <h4 class="font-semibold mb-2">ChittyChronicle</h4>
+                    <p class="text-sm text-gray-600">Legal timeline management for evidentiary tracking and litigation.</p>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border p-6">
+                    <div class="w-10 h-10 bg-chitty-accent/10 rounded-lg mb-4 flex items-center justify-center">
+                        <span class="text-chitty-accent font-bold text-sm">CE</span>
+                    </div>
+                    <h4 class="font-semibold mb-2">ChittyEvidence</h4>
+                    <p class="text-sm text-gray-600">Evidence tracking and verification system for legal proceedings.</p>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border p-6">
+                    <div class="w-10 h-10 bg-chitty-warning/10 rounded-lg mb-4 flex items-center justify-center">
+                        <span class="text-chitty-warning font-bold text-sm">CF</span>
+                    </div>
+                    <h4 class="font-semibold mb-2">ChittyFlow</h4>
+                    <p class="text-sm text-gray-600">Workflow automation and process management for legal operations.</p>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border p-6">
+                    <div class="w-10 h-10 bg-purple-100 rounded-lg mb-4 flex items-center justify-center">
+                        <span class="text-purple-600 font-bold text-sm">CI</span>
+                    </div>
+                    <h4 class="font-semibold mb-2">ChittyIntel</h4>
+                    <p class="text-sm text-gray-600">Legal intelligence and evidence analysis with AI integration.</p>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border p-6">
+                    <div class="w-10 h-10 bg-blue-100 rounded-lg mb-4 flex items-center justify-center">
+                        <span class="text-blue-600 font-bold text-sm">CT</span>
+                    </div>
+                    <h4 class="font-semibold mb-2">ChittyTrace</h4>
+                    <p class="text-sm text-gray-600">Document processing and litigation support platform.</p>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border p-6">
+                    <div class="w-10 h-10 bg-indigo-100 rounded-lg mb-4 flex items-center justify-center">
+                        <span class="text-indigo-600 font-bold text-sm">CD</span>
+                    </div>
+                    <h4 class="font-semibold mb-2">ChittyCloude</h4>
+                    <p class="text-sm text-gray-600">Universal cloud deployment for Cloudflare, Vercel, Railway.</p>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border p-6">
+                    <div class="w-10 h-10 bg-red-100 rounded-lg mb-4 flex items-center justify-center">
+                        <span class="text-red-600 font-bold text-sm">C!</span>
+                    </div>
+                    <h4 class="font-semibold mb-2">Contradiction Engine</h4>
+                    <p class="text-sm text-gray-600">Advanced contradiction detection and logic analysis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Start -->
+    <section class="py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold text-center mb-8">Quick Start</h3>
+            <div class="bg-gray-900 text-gray-100 p-6 rounded-lg font-mono text-sm overflow-x-auto">
+                <div class="mb-4"># Install ChittyOS Standard Framework</div>
+                <div class="text-chitty-accent mb-2">npx @chittyos/standard-installer</div>
+                <div class="mb-4"># Follow the interactive prompts to select framework level</div>
+                <div class="mb-2"># Start development</div>
+                <div class="text-chitty-accent mb-2">cd my-chittyapp</div>
+                <div class="text-chitty-accent">npm run dev</div>
+            </div>
+            
+            <div class="mt-8 grid md:grid-cols-3 gap-6">
+                <a href="https://github.com/chittyos/chittystandard" class="block p-4 bg-white border rounded-lg hover:shadow-md transition-shadow">
+                    <h4 class="font-semibold text-chitty-primary mb-2">📦 Installer</h4>
+                    <p class="text-sm text-gray-600">ChittyOS Standard Framework installer and configuration.</p>
+                </a>
+                
+                <a href="https://github.com/chittyos/shared" class="block p-4 bg-white border rounded-lg hover:shadow-md transition-shadow">
+                    <h4 class="font-semibold text-chitty-primary mb-2">🧰 Shared Package</h4>
+                    <p class="text-sm text-gray-600">Core utilities, components, and framework dependencies.</p>
+                </a>
+                
+                <a href="https://github.com/chittyapps" class="block p-4 bg-white border rounded-lg hover:shadow-md transition-shadow">
+                    <h4 class="font-semibold text-chitty-primary mb-2">🚀 ChittyApps</h4>
+                    <p class="text-sm text-gray-600">Individual applications in the ChittyOS ecosystem.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-chitty-primary to-chitty-secondary rounded-lg flex items-center justify-center">
+                        <span class="text-white font-black">C</span>
+                    </div>
+                    <div>
+                        <div class="font-bold text-lg">ChittyOS</div>
+                        <div class="text-gray-400 text-sm">Legal Technology Framework</div>
+                    </div>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="https://github.com/chittyos" class="text-gray-400 hover:text-white">GitHub</a>
+                    <a href="https://www.npmjs.com/org/chittyos" class="text-gray-400 hover:text-white">NPM</a>
+                    <a href="https://github.com/chittyapps" class="text-gray-400 hover:text-white">ChittyApps</a>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
+                <p>© 2025 ChittyOS. Open source legal technology framework.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
